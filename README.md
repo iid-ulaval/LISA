@@ -15,6 +15,10 @@ of the scan lines under adverse weather arising from reduced SNR (signal to nois
 
 # Using LISA
 
+Use the environment.yml file to install the required libraries for point cloud processing and open3d jupyter visualization
+gen_noisy_point_cloud.ipynb inside python_old has jupyter visulaization code of the point clouds
+lisa_simulation.py inside python_old has code to simulate on the entire kitti velodyne data and generate simulated data in the path specified. 
+
 For original paper code look [here](/python_old/) which has implementations for fog and snow as well. It is tested better than the current project but slower which is why we switched from a pure python implementation to C++ with python bindings.
     
 For developers: Documentation for the c++ code can be generated using Doxygen.
